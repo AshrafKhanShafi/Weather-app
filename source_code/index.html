@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- main content -->
+    
+    <div class="main">
+        
+        <!-- weather app -->
+
+        <div class="weather-app">
+        <h1>Weather App</h1>
+
+            <!-- search section -->
+
+            <div class="search">
+                <input type="text" name="search-location" id="search-location" placeholder="Enter City Name">
+                <button type="button">
+                    <img src="search.png" alt="search here">
+                </button>
+            </div>
+            <h2 class="error">Invalid City Name</h2>
+            <!-- Weather image -->
+
+            <div class="weather">
+                <div class="weather-image">
+                    <img src="clear.png" alt="">
+                </div>
+                <!-- weather Tempareture -->
+                <div class="temp">
+                    <h1 id="degree">
+                        27&deg;C
+                    </h1>
+                </div>
+                <!-- Weather Location -->
+                <div class="weather-location">
+                    <h2 id="location">Dhaka</h2>
+                </div>
+                <!-- weather Details -->
+                <div class="humidity-windspeed">
+                    <!-- humidity section -->
+                    <div class="humidity">
+                        <div class="humidity-image">
+                            <img src="humidity.png" alt="humidity-image">
+                        </div>
+                        <div class="humidity-text">
+                            <p class="humidity-text-p1">20%</p>
+                            <p class="humidity-text-p2">Humidity</p>
+                        </div>
+                    </div>
+                    <!-- Wind speed section -->
+                    <div class="windspeed">
+                        <div class="windspeed-image">
+                            <img src="wind.png" alt="wind speed image">
+                        </div>
+                        <div class="windspeed-text">
+                            <p class="windspeed-text-p1">10km/h
+                            </p>
+                            <p class="windspeed-text-p2">Wind speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="function.js"></script>
+</body>
+
+</html>
